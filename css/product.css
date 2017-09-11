@@ -1,0 +1,90 @@
+body,h1,h2,h3,h4,h5,h6,ul,ol,textarea,input,dl,dd,p{margin: 0 auto;padding: 0;}
+body{font-family: arial,"微软雅黑","宋体"}
+input,img{border:none;}
+a{text-decoration: none;}
+ul,ol{list-style: none;}
+i{font-style: normal;}
+.clearfix:after{content: "200B";display: block;font-size: 0;height: 0;clear: both;}
+/*首页header部分*/
+.clearfix:after{content: ".";display: block;visibility: hidden;height: 0;clear: both;}
+.clearfix{*zoom:1;}
+.header{border-bottom: 2px solid #b1191a;}
+.inner{width:1210px;margin:0 auto;}
+.header .top{background: #f1f1f1;height:30px}
+.header .top .service{width: 990px;height: 29px;float: right;border: 1px solid #dedede;}
+.header .top ul{float: left;text-align: center;}
+.header .top ul li{float: left;}
+.header .top ul li a{display: inline-block;padding:0 16px;height:29px;line-height: 29px;font-size:14px ;color: #5f6064;}
+.header .top ul li .first{border-left: 1px solid #dedede;border-right: 1px solid #dedede;border-top: 2px solid #df3a3e;border-top: 1px solid #fff;background: #fff;}
+.header .top ul li a:hover{border-left: 1px solid #dedede;border-right: 1px solid #dedede;border-top: 2px solid #df3a3e;border-top: 1px solid #fff;background: #fff;}
+.header .top .xinren{font-size: 12px;float: right;margin-right:100px ;color: #646464;position: relative;text-align: center;height: 29px;line-height: 29px;}
+.header .top .xinren i{background: url(../images/shouji_03.png) no-repeat 0  0;height:22px;width: 13px;display: inline-block;margin-left: 18px;vertical-align: middle;}
+.header .top .buy{margin:5px 5px 0 0; float: right;height:20px;width:139px;border:1px solid #9b4d4d;line-height: 20px;background: #e73640 url(../images/buy_03.png) no-repeat 5px 2px;position: relative;}
+.header .top .buy a{color:#fff;font-size: 12px;font-family: "宋体";margin-left: 44px;vertical-align: middle;}
+.header .top .buy a{color:#fff;font-size: 12px;font-family: "宋体";margin-left: 44px;vertical-align: middle;}
+.header .top .buy a:hover{color: #c81623;}
+.header .top .buy i{float: right;padding-right: 11px;font-size: 15px;font-family: consolas;color: #fff;}
+.header .top .buy .number{padding:0px 5px;height:14px;background: red;font-size: 12px;color: #fff;position: absolute;left: 104px;top: -3px;line-height: 14px;border-radius: 6px 6px 6px 0px;}
+
+
+.mid .logo{float: left;padding:20px 92px 0px 0px;}
+.mid .form{float: left;padding-top:25px;}
+.mid .form .text{float:left;height:32px;width:454px;padding-left: 5px;border:2px solid #b61d1d;color:#666;font-size: 13px;line-height: 32px;}
+.mid .form .sub{cursor: pointer; float:left;height:36px;width:80px;background: #b61d1d;font-size: 16px;color: #fff;line-height: 36px;text-align: center;}
+.mid .tags{height;28px;width:540px;overflow: hidden;}
+.mid .tags a{float: left;color: #666;font-size: 12px;height:28px;line-height: 28px;margin-right: 11px;font-family: "宋体";}
+.mid .tags a:hover{color:#c81623;}
+.mid .tags .active{color:#c81623;}
+
+.nav .quan{width:200px;color: #fff;font-size: 15px;background: #b1191a;float: left;padding-left: 10px;line-height: 44px;}
+.nav ul{float: left;}
+.nav ul li{float: left;line-height: 44px;padding: 0px 20px;}
+.nav ul li a{color:#333333;font-size: 16px;}
+.nav ul li a:hover{color: #c81623;}
+.main .top{background: #f2f2f2;width: 100%;height:535px;}
+.main_top_inner{height:489px;width: 1210px;margin: 0 auto;}
+.main_top_inner .title{height:45px;}
+.main_top_inner .title .muying{height:45px;line-height: 45px;font-size: 16px;color: #64646c;font-weight: bold;}
+.main_top_inner .title .address{height:45px;line-height: 45px;font-size: 12px;color: #626262;}
+.main_top_inner .title .address span{padding: 0 5px;}
+.main_buy{height:468px;background: #fff;padding:20px 20px 0 20px;}
+.main_buy .left{width: 380px;height:470px;float: left;position: relative;}
+.main_buy .left .img{width: 380px;height:380px;;position: relative;}
+.main_buy .left .img img{width: 100%;height: 100%;}
+.main_buy .left .img .imgsmall{height: 190px;width: 190px;position: absolute;top: 0;left: 0;background: red;opacity: .3;cursor: pointer;display: none;}
+.main_buy .left .imgboxs{height: 190px;width: 190px;position: absolute;top: 0;left: 372px;overflow: hidden;border: 1px solid #ccc;display: none;}
+.main_buy .left .imgboxs img{position: absolute;}
+.main_buy .left ol{padding: 0 15px;}
+.main_buy .left ol li{float: left;border: 1px solid transparent;height:50px;width: 50px;}
+.main_buy .left ol li:hover{border: 1px solid red;}
+.main_buy .left ol li img{height:50px;width: 50px;}
+.main_buy .mid{float: left;height:470px;width: 590px;}
+.main_buy .mid h2{font-size: 20px;height:36px;line-height: 36px;}
+.main_buy .brief{height:35px;line-height: 35px;display: block;color: red;font-size: 14px;}
+.main_buy .mid .price{height: 50px;width: 590px;background: #f7f7f7;}
+.main_buy .mid .price .money{height: 50px;float: left;line-height: 50px;font-size: 14px;padding: 0 10px;;}
+.main_buy .mid .price .money em{font-size: 20px;color: red;height: 50px;line-height: 50px;padding: 0 10px;}
+.main_buy .mid .price .total{height: 35px;float: right;width: 88px;border-left: 1px solid #919191;margin-top: 10px;}
+.main_buy .mid .price .total span{height:14px;font-size: 12px;color: #919191;line-height: 14px;margin-left: 18px;}
+.main_buy .mid .price .total i{height: 21px;font-size: 12px;color: #30507f;margin-left: 18px;}
+.main_buy .mid .text{height: 52px;padding: 16px;width: 588px;border-bottom: 1px dashed #dcdcdc;}
+.main_buy .mid .text select{height: 25px;line-height: 25px;}
+.main_buy .mid .text .serve{height: 42px;line-height: 42px;}
+.main_buy .mid .choose{margin-top:16px ;}
+.main_buy .mid .choose .size{width: 73px;height: 83px;font-size: 14px;color: #646464;float: left;color: #666668;padding-top:10px ;}
+.main_buy .mid .choose ul{float: left;width: 500px;}
+.main_buy .mid .choose li{height: 24px;width: 110px;font-size: 12px;line-height: 24px;color: #666668;float: left;border: 1px solid #ccc;margin: 4px;text-align: center;}
+.main_buy .mid .choose li:hover{border: 1px solid red;}
+.main_buy .mid .anniu{height: 37px;width: 200px;position: relative;margin-top: 35px;}
+.main_buy .mid .anniu .num{height: 34px;width: 33px;border: 1px solid #ccc;line-height: 34px;text-align: center;}
+.main_buy .mid .anniu .add{background: #f2f2f2; height: 18px;width: 15px;line-height: 18px;text-align: center;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;border-right: 1px solid #ccc;position: absolute;top: 0;left: 35px;}
+.main_buy .mid .anniu .reduce{background: #f2f2f2; height: 20px;width: 15px;line-height: 20px;text-align: center;border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;position: absolute;bottom: 0;left: 35px;}
+.main_buy .mid .anniu .buys{float: right;height:37px ;width: 135px;background: #dc4749;color: #fff;line-height: 37px;text-align: center;border: 1px solid transparent;}
+.main .bot{height: 263px;width: 1208px;border: 1px solid #ccc;margin: 0 auto;margin-top: 10px;}
+.main .bot .title{height: 30px;border: 1px solid #ccc;background: #f7f7f7;}
+.main .bot .title .goods1{width: 85px;height: 29px;border: 1px solid #ccc;line-height: 29px;font-size: 14px;color: #6b6452;display: block;text-align: center;float: left;}
+.main .bot .title .goods2{width: 85px;height: 29px;border: 1px solid #ccc;line-height: 29px;font-size: 14px;color: #6b6452;display: block;text-align: center;float: left;}
+.main .bot .title .goods:hover{color: #d34128;border-top-color:red ;border-bottom:1px solid transparent;}
+.main .bot .hide{display: none;}
+.main .bot li{float: left;width: 200px;height: 233px;text-align: center;}
+.main .bot li img{margin-top: 50px;}
